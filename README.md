@@ -4,7 +4,7 @@ Resources: [rails documentation](https://guides.rubyonrails.org/testing.html "ra
 
 Example App: a blog with different articles
 
-### Unit Testing
+## Unit Testing
 
 A testing method where individual units / compoments are tested.
 
@@ -18,7 +18,7 @@ Example:
 
 
 
-### System Testing
+## System Testing
 
 [documenation system test](https://guides.rubyonrails.org/testing.html#implementing-a-system-test)
 
