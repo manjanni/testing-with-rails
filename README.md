@@ -1,24 +1,20 @@
-# README
+# Testing with Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Resources: [rails documentation](https://guides.rubyonrails.org/testing.html "rails documenation")
 
-Things you may want to cover:
 
-* Ruby version
 
-* System dependencies
+### Unit Testing
 
-* Configuration
+A testing method where individual units / compoments are tested.
 
-* Database creation
+Example:
 
-* Database initialization
+* Validation for model
 
-* How to run the test suite
+1. Write test case
+2. Run it with code(rails test:models)
 
-* Services (job queues, cache servers, search engines, etc.)
+### System Testing
 
-* Deployment instructions
 
-* ...
