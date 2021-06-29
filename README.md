@@ -47,4 +47,7 @@ A method to test user interactions within the application, running tests in a re
 #### 2. Run it with `rails test:system`
 
 
+In case the test fails the error message is directly visible in the terminal. 
+![image](https://user-images.githubusercontent.com/59453084/123876535-ccf77780-d93b-11eb-8b64-72c37fd978fd.png)
+
 
