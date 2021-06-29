@@ -12,7 +12,7 @@ Example:
 
 * Validation for model, e.g. each blog article should have a title
 
-1. Write test case
+1. Write test case in /test/models folder
 2. Run it with `rails test:models`
 3. Write actual code to pass test
 
@@ -24,20 +24,23 @@ Example:
 
 A method to test user interactions within the application, running tests in a real or headless browser.
 
-#### 1. Write test case
+#### 1. Write test case in /test/system folder
 
-```   test "creating an article" do
-        visit articles_path
 
-        click_on "New Article"
 
-        fill_in "Title", with: "Creating an Article"
-        fill_in "Body", with: "Created this article successfully!"
+```
+  test "creating an article" do
+    visit articles_path
 
-        click_on "Create Article"
+    click_on "New Article"
 
-        assert_text "Creating an Article"
-      end
+    fill_in "Title", with: "Creating an Article"
+    fill_in "Body", with: "Created this article successfully!"
+
+    click_on "Create Article"
+
+    assert_text "Creating an Article"
+  end
 
 ```
 
